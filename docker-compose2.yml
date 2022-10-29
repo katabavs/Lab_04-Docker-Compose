@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+ lab4-adminer:
+  image: adminer
+  ports:
+    - 8080:8080
+  networks:
+    - lab4-adminer-network
+
+networks:
+ lab4-adminer-network:
